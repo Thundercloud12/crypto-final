@@ -34,25 +34,6 @@ A modern cryptocurrency tracking application built with React and Node.js that p
 - **Development**: Hot-reloading enabled
 - **Production**: Nginx for serving static files
 
-## Project Structure
-\`\`\`
-crypto-app/
-├── backend/                # Node.js backend server
-│   ├── services/          # Business logic services
-│   │   ├── cryptoAnalysis.js
-│   │   ├── stockService.js
-│   │   └── technicalAnalysis.js
-│   └── index.js          # Express server setup
-├── crypto-app/           # React frontend application
-│   ├── src/
-│   │   ├── api/         # API integration
-│   │   ├── store/       # Redux store configuration
-│   │   │   └── slices/  # Redux slices
-│   │   ├── components/  # React components
-│   │   └── pages/       # Route pages
-│   └── public/          # Static assets
-└── docker-compose.yml   # Docker composition
-\`\`\`
 
 ## Getting Started
 
